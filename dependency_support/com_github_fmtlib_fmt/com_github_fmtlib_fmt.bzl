@@ -22,9 +22,8 @@ def com_github_fmtlib_fmt():
         http_archive,
         name = "com_github_fmtlib_fmt",
         urls = [
-            "https://github.com/fmtlib/fmt/archive/refs/tags/8.0.1.tar.gz",
+            "https://github.com/fmtlib/fmt/archive/refs/tags/11.2.0.tar.gz",
         ],
-        strip_prefix = "fmt-8.0.1",
-        sha256 = "b06ca3130158c625848f3fb7418f235155a4d389b2abc3a6245fb01cb0eb1e01",
+        strip_prefix = "fmt-11.2.0",
         build_file = Label("//dependency_support/com_github_fmtlib_fmt:bundled.BUILD.bazel"),
     )
